@@ -1,0 +1,16 @@
+.buffer-both {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column-33 {
+  width: 33.33%;
+  float: left;
+}
+
+@media (max-width: 640px) {
+  .column-33 {
+    float: none;
+    width: auto;
+  }
+}
